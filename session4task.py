@@ -1,0 +1,13 @@
+import numpy as np
+array = np.array([np.zeros(4),np.zeros(4)])
+print(array)
+array1 = np.array([np.ones(4),np.ones(4)])
+print(array1)
+array2 = np.array([[np.zeros(4),np.zeros(4),np.zeros(4)],[np.zeros(4),np.zeros(4),np.zeros(4)]])
+print(array2)
+array3 = np.array([[np.ones(4),np.ones(4),np.ones(4)],[np.ones(4),np.ones(4),np.ones(4)]])
+print(array3)
+array4 = np.array([np.random.rand(4),np.random.rand(4)])
+print(array4)
+array5 = np.array([[np.random.rand(4),np.random.rand(4),np.random.rand(4)],[np.random.rand(4),np.random.rand(4),np.random.rand(4)]])
+print(array5)
